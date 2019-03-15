@@ -1,0 +1,39 @@
+.card{
+    border: solid 1px white;
+    border-radius: 4px;
+    padding: 20px;
+    margin-top: 30px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5tOxxnNZT_ibWhyH80dFx1FN-Rbu_hPHwoAqjJafWrhksCTI2Zg');
+
+    img{
+        width: 100%;
+        border: ridge 2px white;
+        border-radius: 4px;
+    }
+    &__bottom{
+        margin-top: 10px;
+        background-color: #333333;
+        padding: 8px;
+        color:whitesmoke;
+        border: outset 3px gold;
+        border-radius: 4px;
+    }
+    &:hover &__bottom{
+        
+            color:orange;
+        
+    }
+}
+
+body{
+    
+        background: url('http://www.spaceops2018.org/upload/fond/space.jpeg') repeat 0 0;
+        background-attachment: fixed;        
+        -webkit-animation: slide 60s linear infinite;      
+}
+
+@keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: -4000px 0; }
+}
+
